@@ -21,7 +21,6 @@ int main() {
         getline(cin, cmd);
         if (cmd[0] == 'P') {
             it = lst.insert(it, cmd[2]);
-            it++;
         }
         else if (cmd[0] == 'L') {
             if (it != lst.begin()) --it;
