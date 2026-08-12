@@ -2,7 +2,7 @@
 #include <queue>
 #include <string>
 
-usnig namespace std;
+using namespace std;
 
 int main() {
     int n;
